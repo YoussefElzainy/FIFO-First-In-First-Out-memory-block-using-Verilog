@@ -1,2 +1,21 @@
-# FIFO-First-In-First-Out-memory-block-using-Verilog
-Verilog implementation of a FIFO (First-In, First-Out) memory block
+# Verilog FIFO Memory Block
+
+A **FIFO (First-In, First-Out) memory block** implemented in Verilog. Compact, fully functional, and easy to integrate into digital designs.
+
+---
+
+## Features
+
+- Fully functional FIFO memory
+- Compact implementation (under 50 lines of Verilog)
+- Pipelined stages for synchronous operation
+- Supports basic addition/subtraction operations
+- Easy to integrate into FPGA or ASIC projects
+
+---
+
+## Usage
+
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/fifo-verilog.git
