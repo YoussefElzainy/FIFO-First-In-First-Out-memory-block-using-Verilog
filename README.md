@@ -37,28 +37,6 @@ git clone https://github.com/YoussefElzainy/FIFO-First-In-First-Out-memory-block
 cd FIFO-First-In-First-Out-memory-block-using-Verilog
 ```
 
-### Simulation Setup
-
-#### Using ModelSim
-```bash
-vlib work
-vlog fifo.v
-vsim work.fifo_tb
-run -all
-```
-
-#### Using Vivado (Xilinx)
-1. Create a new project
-2. Add the `.v` files to your project
-3. Create a new simulation source or testbench
-4. Run the simulation
-
-#### Using VCS
-```bash
-vcs -sverilog fifo.v fifo_tb.v
-./simv
-```
-
 ### Synthesis & Implementation
 
 For FPGA deployment:
